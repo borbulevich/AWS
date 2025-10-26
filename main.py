@@ -15,4 +15,5 @@ def echo_all(message):
 
 if __name__ == "__main__":
     print("Бот запущено! Натисни Ctrl+C для зупинки.")
-    bot.polling(none_stop=True)
+
+    bot.polling(none_stop=True) 
